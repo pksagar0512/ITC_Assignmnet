@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+.card {
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background: white;
+    margin: auto;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Unique Colors */
+  .employee {
+    border-top: 5px solid #4facfe;
+  }
+  
+  .user {
+    border-top: 5px solid #43e97b;
+  }
+  
+  .admin {
+    border-top: 5px solid #fa709a;
+  }
+  
