@@ -1,0 +1,8 @@
+.employee-card {
+  border: 1px solid #007bff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #f0f8ff;
+  max-width: 300px;
+}
